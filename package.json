@@ -1,0 +1,22 @@
+{
+  "name": "valo-cockpit",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Cockpit de valorisation d'entreprises cotees - 5 methodes (DCF, Comparables, Patrimoniale, DDM, EVA/MVA)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.12.7",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}
